@@ -1,0 +1,4 @@
+﻿  Coding1-Week3-CPP.cpp
+C:\Pinned Apps\Github Repositories\Coding1-CPP\Coding1-Week3-CPP\Coding1-Week3-CPP.cpp(33,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Pinned Apps\Github Repositories\Coding1-CPP\Coding1-Week3-CPP\Coding1-Week3-CPP.cpp(30,6): warning C4101: 'score': unreferenced local variable
+  Coding1-Week3-CPP.vcxproj -> C:\Pinned Apps\Github Repositories\Coding1-CPP\Coding1-Week3-CPP\x64\Debug\Coding1-Week3-CPP.exe
