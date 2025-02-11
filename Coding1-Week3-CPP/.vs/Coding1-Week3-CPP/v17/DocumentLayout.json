@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Coding1-Week3-CPP.cpp",
-              "DocumentMoniker": "C:\\Pinned Apps\\Github Repositories\\Coding1-CPP\\Coding1-Week3-CPP\\Coding1-Week3-CPP.cpp",
-              "RelativeDocumentMoniker": "Coding1-Week3-CPP.cpp",
-              "ToolTip": "C:\\Pinned Apps\\Github Repositories\\Coding1-CPP\\Coding1-Week3-CPP\\Coding1-Week3-CPP.cpp",
-              "RelativeToolTip": "Coding1-Week3-CPP.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-06T17:50:48.666Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,10 +28,23 @@
               "RelativeDocumentMoniker": "Week3-HW-Adventure.cpp",
               "ToolTip": "C:\\Pinned Apps\\Github Repositories\\Coding1-CPP\\Coding1-Week3-CPP\\Week3-HW-Adventure.cpp",
               "RelativeToolTip": "Week3-HW-Adventure.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-06T17:48:16.574Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Coding1-Week3-CPP.cpp",
+              "DocumentMoniker": "C:\\Pinned Apps\\Github Repositories\\Coding1-CPP\\Coding1-Week3-CPP\\Coding1-Week3-CPP.cpp",
+              "RelativeDocumentMoniker": "Coding1-Week3-CPP.cpp",
+              "ToolTip": "C:\\Pinned Apps\\Github Repositories\\Coding1-CPP\\Coding1-Week3-CPP\\Coding1-Week3-CPP.cpp",
+              "RelativeToolTip": "Coding1-Week3-CPP.cpp",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAEoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-06T17:50:48.666Z"
             }
           ]
         }
