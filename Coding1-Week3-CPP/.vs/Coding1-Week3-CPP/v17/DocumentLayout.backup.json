@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{56309225-4FC0-41E4-9EBF-D54D4133B516}|Coding1-Week3-CPP.vcxproj|solutionrelative:Coding1_Week5_HW_FavGames.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\__msvc_string_view.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56309225-4FC0-41E4-9EBF-D54D4133B516}|Coding1-Week3-CPP.vcxproj|C:\\Pinned Apps\\Github Repositories\\Coding1-CPP\\Coding1-Week3-CPP\\Coding1-Week5-Loops-And-Lists.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{56309225-4FC0-41E4-9EBF-D54D4133B516}|Coding1-Week3-CPP.vcxproj|solutionrelative:Coding1-Week5-Loops-And-Lists.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -26,8 +29,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "__msvc_string_view.hpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\__msvc_string_view.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\__msvc_string_view.hpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\__msvc_string_view.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\__msvc_string_view.hpp",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAYwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-27T17:20:13.354Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +52,14 @@
               "RelativeDocumentMoniker": "Coding1_Week5_HW_FavGames.cpp",
               "ToolTip": "C:\\Pinned Apps\\Github Repositories\\Coding1-CPP\\Coding1-Week3-CPP\\Coding1_Week5_HW_FavGames.cpp",
               "RelativeToolTip": "Coding1_Week5_HW_FavGames.cpp",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-26T01:37:09.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Coding1-Week5-Loops-And-Lists.cpp",
               "DocumentMoniker": "C:\\Pinned Apps\\Github Repositories\\Coding1-CPP\\Coding1-Week3-CPP\\Coding1-Week5-Loops-And-Lists.cpp",
               "RelativeDocumentMoniker": "Coding1-Week5-Loops-And-Lists.cpp",
@@ -51,11 +67,12 @@
               "RelativeToolTip": "Coding1-Week5-Loops-And-Lists.cpp",
               "ViewState": "AgIAAEoAAAAAAAAAAAAhwFgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-20T15:53:07.838Z"
+              "WhenOpened": "2025-02-20T15:53:07.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Coding1-Week3-HW-Adventure.cpp",
               "DocumentMoniker": "C:\\Pinned Apps\\Github Repositories\\Coding1-CPP\\Coding1-Week3-CPP\\Coding1-Week3-HW-Adventure.cpp",
               "RelativeDocumentMoniker": "Coding1-Week3-HW-Adventure.cpp",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Coding1-Week3-CPP.cpp",
               "DocumentMoniker": "C:\\Pinned Apps\\Github Repositories\\Coding1-CPP\\Coding1-Week3-CPP\\Coding1-Week3-CPP.cpp",
               "RelativeDocumentMoniker": "Coding1-Week3-CPP.cpp",

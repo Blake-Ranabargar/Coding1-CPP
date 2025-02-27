@@ -59,9 +59,9 @@ int main()
                     cout << "Enter a name : \n";
                     cout << "\n";
 
-                    getline(cin, input);			// Using cin, get input and assign it to temp
+                    getline(cin, input);			// Using cin, get input and assign it
 
-                    (currentFavGames <= 10);
+                    favGames[currentFavGames++] = input;
 
                     cout << "\n";
 
@@ -74,23 +74,30 @@ int main()
 
                 cout << "Which game would you like to rename?\n\n";
                 
+                getline(cin, input);
+
                 for (int i = 0; i < currentFavGames; i++)
                 {
 
-                    getline(cin, input);
-
-                    if (input == favGames[i])
+                    if (favGames[i] == input)
                     {
-                        favGames[i] = " ";
+                        cout << "What would you like to rename it to?\n\n";
+                        
+                        getline(cin, input);
+                        
+                        favGames[i] = input;
+                        
+                        cout << "name change accepeted, It has been updated to " << favGames[i] << ".\n\n"; 
+                        
+                        break;
                     }
 
-                    cout << "What would you like to rename it to?\n\n";
-
-                    getline(cin, input);
+                    if (i + 1 == currentFavGames)
+                    {
+                        cout << "Could not locate registered game, please recheck spelling or input\n\n";
+                    }
 
                 }
-
-                cout << "name change accepeted.\n\n";
 
             }
 
@@ -108,14 +115,18 @@ int main()
 
                 for (int i = 0; i < currentFavGames; i++) 
                 {
-                    if (input == favGames[i]) 
+                    if (favGames[i] == input)
                     {
                         cout << "I've found the game, removing it now.\n";
+
                         favGames[i] = "";
+
+                        cout << "Game Has been removed.\n";
+
                     }
                 }
 
-                cout << "\n";
+                //cout << "\n";
             }
 
             else if (input == "show") 
@@ -126,7 +137,7 @@ int main()
                
                 for (int i = 0; i < currentFavGames; i++) 
                 {
-                    // this is how we skip removed or not-yet-added lines in our array
+                    // this is how we skip removed or not-yet-added lines in the array
                     if (favGames[i] == "") 
                     {
                         continue;
@@ -136,7 +147,7 @@ int main()
                         cout << favGames[i] << ".\n";
                     }
 
-                    cout << "\n";
+                    //cout << "\n";
                 }
             }
             
@@ -151,8 +162,10 @@ int main()
                 cout << "im sorry, What you have enetered is invalid, Please try these instead :  \n\n";
             }
 
-            favGames[currentFavGames++] = input;
+            cout << "\n\n";
 
-        } while (currentFavGames <= 10);
+            // favGames[currentFavGames++] = input;
+
+        } while (true);
     } 
 }
