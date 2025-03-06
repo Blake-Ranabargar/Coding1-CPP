@@ -1,2 +1,3 @@
-﻿  Coding1_Week5_HW_FavGames.cpp
+﻿  Coding1_Week7_Recap.cpp
+C:\Pinned Apps\Github Repositories\Coding1-CPP\Coding1-Week3-CPP\Coding1_Week7_Recap.cpp(21,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Coding1-Week3-CPP.vcxproj -> C:\Pinned Apps\Github Repositories\Coding1-CPP\Coding1-Week3-CPP\x64\Debug\Coding1-Week3-CPP.exe

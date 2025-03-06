@@ -27,5 +27,8 @@
     <ClCompile Include="Coding1_Week5_HW_FavGames.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Coding1_Week7_Recap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
