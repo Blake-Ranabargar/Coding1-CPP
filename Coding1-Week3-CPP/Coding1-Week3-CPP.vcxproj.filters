@@ -30,5 +30,11 @@
     <ClCompile Include="Coding1_Week7_Recap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Coding1-Week10-Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Coding1-Week10-Adventure2.0-HW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Coding1-Week10-Adventure2.0-HW.cpp" />
+    <ClCompile Include="Coding1-Week10-Functions.cpp" />
     <ClCompile Include="Coding1-Week3-CPP.cpp" />
     <ClCompile Include="Coding1-Week5-Loops-And-Lists.cpp" />
     <ClCompile Include="Coding1-Week3-HW-Adventure.cpp" />

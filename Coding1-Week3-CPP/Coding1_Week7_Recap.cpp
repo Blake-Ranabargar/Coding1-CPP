@@ -2,6 +2,7 @@
 
 // Coding1 Recap Week
 
+/*
 #include <iostream>
 #include <string>
 #include <ctime>
@@ -128,4 +129,4 @@ int main()
 	}
 	
 
-}
+} */
