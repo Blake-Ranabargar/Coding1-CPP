@@ -36,5 +36,14 @@
     <ClCompile Include="Coding1-Week10-Adventure2.0-HW.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Coding1_Week12_Structures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Coding1_Week12_Classes+Getters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Coding1_Week12_HW_HumanClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -24,6 +24,7 @@
     <ProjectGuid>{56309225-4fc0-41e4-9ebf-d54d4133b516}</ProjectGuid>
     <RootNamespace>Coding1Week3CPP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Coding1-CPP</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -132,6 +133,9 @@
     <ClCompile Include="Coding1-Week3-CPP.cpp" />
     <ClCompile Include="Coding1-Week5-Loops-And-Lists.cpp" />
     <ClCompile Include="Coding1-Week3-HW-Adventure.cpp" />
+    <ClCompile Include="Coding1_Week12_Classes+Getters.cpp" />
+    <ClCompile Include="Coding1_Week12_HW_HumanClass.cpp" />
+    <ClCompile Include="Coding1_Week12_Structures.cpp" />
     <ClCompile Include="Coding1_Week5_HW_FavGames.cpp" />
     <ClCompile Include="Coding1_Week7_Recap.cpp" />
   </ItemGroup>
