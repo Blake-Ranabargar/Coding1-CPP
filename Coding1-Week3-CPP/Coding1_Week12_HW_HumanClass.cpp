@@ -7,9 +7,13 @@
 #include <string>
 using namespace std;
 
+
+
+
+
 class human
 {
-private:
+protected:
 	//in private code will hold name, health and damage templates
 	string name;
 	int health = 10;
@@ -17,44 +21,70 @@ private:
 
 
 public:
+
+	human()
+	{
+		string name;
+		int health;
+		int damage;
+
+	}
+
 	// makes constructor public
 	human(string, int, int);
 	void SayHello();
 
+
 	//setter and getters
 	//setter first for health
-	void SetHealth(int byAmount)
+	void SetHealth(int givenhealth)
 	{
-		if (byAmount < 0)
+		if (givenhealth < 0)
 		{
 			health = 0;
 		}
-		else if (byAmount > 100)
+		else if (givenhealth > 100)
 		{
 			health = 100;
 		}
 		else
 		{
-			health = byAmount;
+			health = givenhealth;
 		}
+
+
 	}
+
 	//Getter for health
 	int GetHealth()
 	{
 		return health;
 	}
+
+	void ChangeHealth(int by = 1)
+	{
+		int tempHealth = health;
+		tempHealth += by;
+		SetHealth(tempHealth);
+	}
+
+
 	//setter for damage  hopefully this works 
-	//unsure if it will ;-; 
+	//unsure if it will 
 	void SetDamage(int givenDamage = 4)
 	{
 		health -= givenDamage;
 		SetHealth(health);
 	}
+
+
 	// getter for damage
 	int GetDamage()
 	{
 		return damage;
 	}
+
+
 	//name
 	void SetName(string givenName)
 	{
@@ -73,18 +103,59 @@ public:
 			name = givenName;
 		}
 	}
+
+
 	string GetName()
 	{
 		return name;
 	}
 };
 
+
+	// The wizard class inherits from the human class
+	// everything that the Human class has, so does the wizard
+class wizard : public human
+{
+public: int mana;
+
+	void castSpell()
+	{
+		cout << name << " Cast a spell!\n\n";
+	}
+
+	// Built a spell that poisons any human
+
+	void poison(human& target)
+	{
+		cout << "The terrible wizard " << name << " has poisoned " << target.GetName() << "!\n";
+		int halfOfTargetHealth = target.GetHealth() / 2;
+
+		target.ChangeHealth(-halfOfTargetHealth);
+	}
+
+};
+
+class necromancer : public human
+{
+public: int mana;
+
+	  void raiseDead()
+	  {
+		  cout << name << " has risen an undead monster\n\n";
+	  }
+
+
+};
+
+
+
+
 //constructors
 
-human::human(string givenName, int health, int baseDamage)
+human::human(string givenName, int givenHealth, int baseDamage)
 {
 	name = givenName;
-	health = health;
+	health = givenHealth;
 	damage = baseDamage;
 
 	// new talk
@@ -99,13 +170,31 @@ void human::SayHello()
 //main
 int main()
 {
-	cout << "Human Class!\n\n";
 
-	human vio("Violetta", 25, 8); //i dont think health worked? 
-	cout << "Heres a new human!\n";
-	cout << "They can introduce themselves, watch!\n";
+	wizard dumblydore;
+	dumblydore.SetName("Abloose");
+	dumblydore.SayHello();
+	dumblydore.castSpell();
 
-	vio.SayHello();
+
+	necromancer cairo;
+	cairo.SetName("Cairo");
+	cairo.SayHello();
+	cairo.raiseDead();
+
+
+									//cout << "Human Class!\n\n";
+
+	human Blake;
+	Blake.SetName("Blake");
+	Blake.SetHealth(50);
+	
+	dumblydore.poison(Blake);
+
+	cout << "{Checking Health After Poison]\n";
+	
+	Blake.SayHello();
+
 
 
 

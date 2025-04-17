@@ -1,0 +1,4 @@
+﻿  Coding1_Week12_HW_HumanClass.cpp
+C:\Pinned Apps\Github Repositories\Coding1-CPP\Coding1-Week3-CPP\Coding1_Week12_HW_HumanClass.cpp(29,7): warning C4101: 'damage': unreferenced local variable
+C:\Pinned Apps\Github Repositories\Coding1-CPP\Coding1-Week3-CPP\Coding1_Week12_HW_HumanClass.cpp(28,7): warning C4101: 'health': unreferenced local variable
+  Coding1-Week3-CPP.vcxproj -> C:\Pinned Apps\Github Repositories\Coding1-CPP\Coding1-Week3-CPP\x64\Debug\Coding1-CPP.exe
