@@ -1,5 +1,6 @@
 
 #include "filez.h"
+#include "ship.h"
 
 void WriteToFile(string givenString)
 {
@@ -24,6 +25,33 @@ void WriteToFile(string givenString)
 
 
 }
+
+
+ship WriteShipToFile(string givenShipName, int givenFuel, shipType shipType)
+{
+	//set name, fuel and ship type
+
+
+	//opens file
+	ofstream file("Week14_Test_File.txt", ios::app);
+
+	//confrim the file is open
+	if (!file.is_open()) //it doesnt like this code
+		//"C2561" "WriteShipToFIle" function must return a value?
+	{
+		cout << "Could not open File.\n";
+		return;
+	}
+
+
+	//write text to the open file
+	void status();
+
+
+	//close the file (which saves it to disk)
+	file.close();
+}
+
 
 void ReadFromFile()
 {

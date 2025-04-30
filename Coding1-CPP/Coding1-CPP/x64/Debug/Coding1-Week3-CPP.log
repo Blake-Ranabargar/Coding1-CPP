@@ -1,6 +1,10 @@
 ﻿  filez.cpp
+Z:\Github Repos\Coding1-CPP\Coding1-CPP\filez.cpp(43,3): error C2561: 'WriteShipToFile': function must return a value
+      Z:\Github Repos\Coding1-CPP\Coding1-CPP\filez.cpp(30,6):
+      see declaration of 'WriteShipToFile'
+  
   filez.h
   Coding1_Week14_Main.cpp
+  Coding1_Week5_HW_FavGames.cpp
+  Ship.cpp
   Generating Code...
-Coding1-CPP\x64\Debug\filez.obj : warning LNK4042: object specified more than once; extras ignored
-  Coding1-Week3-CPP.vcxproj -> C:\Pinned Apps\Github Repositories\Coding1-CPP\Coding1-Week3-CPP\x64\Debug\Coding1-CPP.exe
