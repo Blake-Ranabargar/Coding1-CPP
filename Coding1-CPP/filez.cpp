@@ -27,32 +27,6 @@ void WriteToFile(string givenString)
 }
 
 
-ship WriteShipToFile(string givenShipName, int givenFuel, shipType shipType)
-{
-	//set name, fuel and ship type
-
-
-	//opens file
-	ofstream file("Week14_Test_File.txt", ios::app);
-
-	//confrim the file is open
-	if (!file.is_open()) //it doesnt like this code
-		//"C2561" "WriteShipToFIle" function must return a value?
-	{
-		cout << "Could not open File.\n";
-		return;
-	}
-
-
-	//write text to the open file
-	void status();
-
-
-	//close the file (which saves it to disk)
-	file.close();
-}
-
-
 void ReadFromFile()
 {
 	string fileContents;		// Where we store teh text in the file
@@ -65,7 +39,7 @@ void ReadFromFile()
 	if (!file.is_open())
 	{
 		cout << "Could not open the file.\n\n";
-
+		return;
 
 	}
 
@@ -80,5 +54,42 @@ void ReadFromFile()
 	// Close the file
 	file.close();
 
-
 }
+
+	void WriteShipToFile(ship givenShip)
+	{
+		cout << "Writing " << givenShip.name << " to file.\n";
+		//open or create the file
+		ofstream file("ship.txt", ios::app);
+
+		//confrim the file is open
+		if (!file.is_open())
+		{
+			cout << "Could not open File.\n";
+			return;
+		}
+
+		//write text to the open file
+		
+		file << givenShip.name << "\n";							// Can be treated as a Cout line
+		file << givenShip.fuel << " fuel level.\n";
+
+
+		switch (givenShip.type)
+		{
+		case FIGHTER: file << "Fighter.\n";
+			break;
+		case FRIGATE: file << "Frigate.\n";
+			break;
+		case FREIGHTER: file << "Freighter.\n";
+			break;
+		case CRUISER: file << "Cruiser.\n";
+			break;
+		default: file << "Unkown.\n";
+			break;
+		}
+
+		//close the file (which saves it to disk)
+		file.close();
+	}
+

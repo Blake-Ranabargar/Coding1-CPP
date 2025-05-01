@@ -14,13 +14,14 @@ int main()
 
 	ReadFromFile();
 
-	WriteToFile("Did you get the Switch2 Preorder?\n\n");
+		//WriteToFile("Did you get the Switch2 Preorder?\n\n");
 
-	WriteShipToFile("SS Minnow", 25, CRUISER); //CANT FIGURE OUT WHY ITS NOT RUNNING PROPERLY
 
 	ship minnow;
 	minnow.type = CRUISER;
 	minnow.status();
+
+	WriteShipToFile(minnow);
 
 	return 0;
 }
